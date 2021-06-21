@@ -6,7 +6,7 @@ A calculator app where you can calculate the 4 basic Math operations for a compa
 
 ## Live Demo
 
--[Shooter Game](https://shielded-mountain-99270.herokuapp.com/)
+-[Calculator](https://shielded-mountain-99270.herokuapp.com/)
 
 ## Getting Started
 
