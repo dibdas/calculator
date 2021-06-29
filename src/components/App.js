@@ -9,7 +9,6 @@ function App() {
       <ButtonPanel />
       <Display />
       <Calculate />
-
     </>
   );
 }
