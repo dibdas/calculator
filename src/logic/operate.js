@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
@@ -23,6 +24,7 @@ const operate = (numberOne, numberTwo, operation) => {
     default:
       break;
   }
+  return result.toString();
 };
 
 export default operate;
