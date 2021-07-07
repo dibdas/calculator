@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonPanel renders correctly 1`] = `
+<div>
+  <h3>
+    0
+  </h3>
+</div>
+`;
