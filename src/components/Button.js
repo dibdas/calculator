@@ -1,3 +1,5 @@
+/* eslint-disable react/default-props-match-prop-types */
+/* eslint-disable react/require-default-props */
 /* eslint-disable react/no-typos */
 /* eslint-disable react/prop-types */
 
