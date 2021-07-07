@@ -30,9 +30,12 @@ const calculate = (data, buttonName) => {
         next += buttonName;
       }
       break;
+    case '.':
+      break;
     case '=':
       total = operate(total, next, operation);
       break;
+
     default:
       break;
   }

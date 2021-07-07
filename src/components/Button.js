@@ -5,10 +5,11 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 const Button = (props) => {
-  const { name } = props;
+  const { clickHandler, name } = props;
+  const handleClick = (buttonName) => clickHandler(buttonName);
   return (
     <div>
-      <button type="button">{name}</button>
+      <button onClick={(event) => handleClick(event.target.name)} type="button">{name}</button>
     </div>
   );
 };
