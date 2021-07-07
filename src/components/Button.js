@@ -13,7 +13,7 @@ const Button = (props) => {
     </div>
   );
 };
-Button.PropTypes = {
+Button.propTypes = {
   name: propTypes.string.isRequired,
 };
 Button.defaultProps = {
