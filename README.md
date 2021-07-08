@@ -15,6 +15,8 @@ A calculator app where you can calculate the 4 basic Math operations for a compa
 - Run `yarn install` or `npm install` to install dependencies
 - On the terminal run `npm run start` open up the live server
 
+## Testing
+- npm test
 
 ## Author
 
