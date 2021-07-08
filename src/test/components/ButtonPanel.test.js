@@ -5,7 +5,7 @@ import ButtonPanel from '../../components/ButtonPanel';
 describe('ButtonPanel', () => {
   it('renders correctly', () => {
     const tree = renderer
-      .create(<ButtonPanel />)
+      .create(<ButtonPanel name="2" clickHandler={test} />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
